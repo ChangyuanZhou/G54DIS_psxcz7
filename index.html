@@ -1,0 +1,106 @@
+<html>
+
+<body>
+
+<style> 
+  html { 
+    background: url(background.jpg) no-repeat center fixed; 
+    background-size: cover;
+    opacity:0.9;
+  }
+  
+  body { 
+    color: black; 
+  }
+
+  a:link {
+  color: blue;
+  text-align: center;
+}
+  </style>
+
+
+<style>
+  input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  
+  input[type=password], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+
+  input[type=submit] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+  
+  div {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      opacity:0.8;
+      align-content: center;
+      width: 350px;
+      padding: 10px;
+      position: absolute;
+      left:32%;
+      top: 23%;
+  }
+  </style>
+  <body>
+  
+  
+  
+  <a href="http://www.nottingham.ac.uk">
+    <img src="logo.png" alt="http://www.nottingham.ac.uk" style="width:253px;height:94px;border:0;margin:0">
+  </a>
+
+<h1 style="text-align: center; 
+          position: absolute;
+          top:12%;left:31%">Student Management System 
+</h1>
+
+  <div>
+    <form action="login.php" method = "post" >
+      <p><label for="fname">Username</label></p>
+      <p><input type="text" id="fname" name="Username" placeholder=" Username of your UoN email address" required></p>
+  
+      <p><label for="lname">Password</label> </p>
+      <p><input type="password" id="lname" name="Password" placeholder="Password"  required></p>
+  
+      <!-- <label for="Campus">Campus</label>
+      <select id="Campus" name="Campus">
+        <option value="UK">UK</option>
+        <option value="China">China</option>
+        <option value="Jubilee">Jubilee</option>
+      </select> -->
+      <a href="null" style="text-align: center"> Forgot password?</a>
+      <input type="submit" value="Log in">
+    </form>
+  </div>
+  
+  </body>
+</html>
+
+
